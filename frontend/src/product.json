@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Sausage Delight",
+        "category": "pizza",
+        "price": 2980,
+        "image": "/images/7.png"
+    },
+    {
+        "name": "Crispy Korean Chicken" ,
+        "category": "pizza",
+        "price": 4200,
+        "image": "/images/8.png"
+    },
+    {
+        "name": "Teriyaki Chicken",
+        "category": "pizza",
+        "price": 4300,
+        "image": "/images/9.png"
+    },
+    {
+        "name": "Thai Green Curry Chicken",
+        "category": "pizza",
+        "price": 3780,
+        "image": "/images/10.png"
+    },
+    {
+        "name": "Middle Eastern Chicken",
+        "category": "pizza",
+        "price": 3500,
+        "image": "/images/11.png"
+    },
+    {
+        "name": "Veggie Masala Pizza",
+        "category": "pizza",
+        "price": 2980,
+        "image": "/images/12.png"
+    },
+    {
+        "name": "Chilli Chicken Pizza",
+        "category": "pizza",
+        "price": 3000,
+        "image": "/images/13.png"
+    },
+    {
+        "name": "Margherita",
+        "category": "pizza",
+        "price": 2800,
+        "image": "/images/14.png"
+    },
+    {
+        "name": "Iced Chocolate Malt",
+        "category": "beverages",
+        "price": 550,
+        "image": "/images/15.png"
+    },
+    {
+        "name": "Thick Mango Magic (300ml)",
+        "category": "beverages",
+        "price": 750,
+        "image": "/images/16.png"
+    },
+    {
+        "name": "Vanilla Milk Shake (300ml)",
+        "category": "beverages",
+        "price": 980,
+        "image": "/images/17.png"
+    },
+    {
+        "name": "Double Chocolate Milk Shake (300ml)",
+        "category": "beverages",
+        "price": 980,
+        "image": "/images/18.png"
+    },
+    {
+        "name": "Strawberry Milk Shake (300ml)",
+        "category": "beverages",
+        "price": 950,
+        "image": "/images/19.png"
+    },
+    {
+        "name": "Pet Coca-Cola",
+        "category": "beverages",
+        "price": 220,
+        "image": "/images/20.png"
+    },
+    {
+        "name": "Pet Sprite",
+        "category": "beverages",
+        "price": 220,
+        "image": "/images/21.png"
+    },
+    
+    {
+        "name": "Pet Fanta Orangee",
+        "category": "beverages",
+        "price": 220,
+        "image": "/images/22.png"
+    },
+
+    {
+        "name": "Coke Zero 400ml",
+        "category": "beverages",
+        "price": 200,
+        "image": "/images/23.png"
+    },
+
+    {
+        "name": "1.5l Coca-Cola",
+        "category": "beverages",
+        "price": 450,
+        "image": "/images/24.png"
+    },
+
+    {
+        "name": "1.5l Sprite",
+        "category": "beverages",
+        "price": 450,
+        "image": "/images/25.png"
+    },
+
+    {
+        "name": "Mineral Water",
+        "category": "beverages",
+        "price": 70,
+        "image": "/images/26.png"
+    }, 
+    
+    {
+        "name": "Pepperoni",
+        "category": "toppings",
+        "price": 200,
+        "image": "/images/27.png"
+    },
+    {
+        "name": "ham & pineapple",
+        "category": "toppings",
+        "price": 990,
+        "image": "/images/28.png"
+    },
+    {
+        "name": "BBQ ",
+        "category": "toppings",
+        "price": 990,
+        "image": "/images/29.png"
+    },
+    {
+        "name": "Garlic butter prawns and chilli ",
+        "category": "toppings",
+        "price": 990,
+        "image": "/images/30.png"
+    },
+    {
+        "name": "Sausage & Kale ",
+        "category": "toppings",
+        "price": 990,
+        "image": "/images/31.png"
+    },
+    {
+        "name": "Garlic Cheese ",
+        "category": "toppings",
+        "price": 990,
+        "image": "/images/32.png"
+    }
+    
+]
