@@ -118,17 +118,3 @@ npm start
 - Mobile-friendly, responsive design
 
 
-## Documentation
-
-See the (`PizzaShop_Documentation.pdf`) 
-
-- UI designs
-- Annotated images
-
-
-
-## 📌 Notes
-
-- Database backup included in `database\Pizza-shop-Backup.sql`
-
-
