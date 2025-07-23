@@ -3,27 +3,6 @@
 @tailwind utilities;
 
 
-/* @media print {
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .print\:hidden {
-    display: none !important;
-  }
-
-  .print\:border-none {
-    border: none !important;
-  }
-
-  .print\:shadow-none {
-    box-shadow: none !important;
-  }
-} */
-
-
-
 @media print {
   body * {
     visibility: hidden;
