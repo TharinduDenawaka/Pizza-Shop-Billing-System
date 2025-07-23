@@ -88,8 +88,9 @@ npm install concurrently --save-dev
 
 ```json
 "scripts": {
-  "dev": "concurrently \"npm run server --prefix backend\" \"npm start --prefix frontend\""
-}
+      "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\"",
+      "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+   },
 ```
 
 4. Create a `.env` file inside the `backend/` folder:
@@ -106,7 +107,7 @@ DB_NAME=pizza-shop
 5. Now run the full stack app with:
 
 ```bash
-npm run dev
+npm run start
 ```
 
 ---
