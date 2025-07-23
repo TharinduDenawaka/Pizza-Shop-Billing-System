@@ -1,6 +1,8 @@
 #  Pizza Shop Billing System
 
-A full-stack web application for a pizza shop to manage Products and generate professional customer invoices.
+A full-stack web application for a pizza shop to manage products and generate professional customer invoices.
+
+---
 
 ##  Project Overview
 
@@ -11,8 +13,9 @@ This system allows the shop to:
 - Print bills in a clean, professional format
 - Ensure responsive design and smooth UI/UX
 
+---
 
-##  Tech Stack
+## Tech Stack
 
 | Layer       | Technology              |
 |-------------|-------------------------|
@@ -21,8 +24,24 @@ This system allows the shop to:
 | Database    | PostgreSQL              |
 | Architecture| MVC Pattern             |
 
+---
 
-##  1. Database Setup
+## Folder Structure
+
+```
+root/
+│
+├── backend/         # Node.js + Express API
+├── frontend/        # React + Tailwind frontend
+├── database/        # SQL scripts
+├── .gitignore
+├── package.json     # Root-level scripts and concurrently setup
+└── README.md
+```
+
+---
+
+## 1. Database Setup
 
 1. Open **pgAdmin** or PostgreSQL CLI.
 2. Create a database:
@@ -31,39 +50,49 @@ This system allows the shop to:
 CREATE DATABASE pizza-shop;
 ```
 
-3. Run the SQL scripts in the `database\databaseQuery.sql` file to create these tables:
+3. Run the SQL file located at:
+
+```
+database/databaseQuery.sql
+```
+
+It includes table creation and seed data for:
 
 - `products`
 - `invoices`
 - `invoice_items`
 
-A `.sql` file with all table creation and INSERT queries is included in the `database\databaseQuery.sql` folder.
+---
 
+## 2. Combined Project Setup (Root Level with Concurrently)
 
-## 2. Backend Setup (Node.js + Express)
+This method allows you to start both backend and frontend together using a single command.
 
-`backend/`
+### Prerequisites
 
-### Prerequisites:
-
-- Node.js and npm installed
-- PostgreSQL installed and running
+- Node.js + npm installed
+- PostgreSQL installed
+- Your `.env` file properly configured in `backend/`
 
 ### Steps:
 
-1. Navigate to the backend folder:
+1. Make sure you're in the root project directory.
+
+2. Install root-level dependencies and tools:
 
 ```bash
-cd backend
+npm install concurrently --save-dev
 ```
 
-2. Install dependencies:
+3. In the root `package.json`, add the following script:
 
-```bash
-npm install
+```json
+"scripts": {
+  "dev": "concurrently \"npm run server --prefix backend\" \"npm start --prefix frontend\""
+}
 ```
 
-3. Create a `.env` file in the backend root:
+4. Create a `.env` file inside the `backend/` folder:
 
 ```env
 PORT=5000
@@ -74,47 +103,53 @@ DB_PASSWORD=your_postgres_password
 DB_NAME=pizza-shop
 ```
 
-4. Start the backend server:
+5. Now run the full stack app with:
 
 ```bash
+npm run dev
+```
+
+---
+
+## 3. Individual Backend Setup
+
+> Folder: `backend/`
+
+```bash
+cd backend
+npm install
 npx nodemon server.js
 ```
 
-> Server runs on: `http://localhost:5000/`
+Runs on `http://localhost:5000/`
 
+---
 
-##  3. Frontend Setup (React + Tailwind CSS)
+## 4. Individual Frontend Setup
 
->  Folder: `frontend/`
-
-### Steps:
-
-1. Navigate to the frontend folder:
+> Folder: `frontend/`
 
 ```bash
 cd frontend
-```
-
-2. Install dependencies:
-
-```bash
 npm install
-```
-
-3. Start the development server:
-
-```bash
 npm start
 ```
 
-> App runs on: `http://localhost:3000/`
+Runs on `http://localhost:3000/`
 
+---
 
 ## Features
 
-- View products (pizzas, toppings, beverages)
-- Create invoices with Products details, quantity, tax, and total
-- Print professional customer bills
-- Mobile-friendly, responsive design
+- Browse product categories (Pizza, Toppings, Beverages)
+- Create and manage customer invoices
+- Professional invoice print layout
+- Fully responsive for mobile & tablet
+- Built with modern full-stack technologies
 
+---
 
+## Contact
+
+Designed & Developed by **Tharindu Dasun Denawaka**  
+Email: [tharindudasun1997@gmail.com](mailto:tharindudasun1997@gmail.com)
