@@ -1,12 +1,14 @@
 {
    "name": "pizza-bulling-system",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\"",
-    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
-  },
-
-  "devDependencies": {
-    "concurrently": "^9.2.0"
-  }
+   "version": "1.0.0",
+   "scripts": {
+      "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix frontend\"",
+      "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+   },
+   "devDependencies": {
+      "concurrently": "^9.2.0"
+   },
+   "dependencies": {
+      "lucide-react": "^0.525.0"
+   }
 }

@@ -78,14 +78,6 @@ function Products() {
   return (
     <div className="bg-gray-50 min-h-screen pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* <div className="text-center py-12">
-          <h1 className="text-4xl font-extrabold text-red-400 sm:text-5xl sm:tracking-tight lg:text-6xl">
-            Good pizza takes time, but it's worth the wait!
-          </h1>
-          <p className="mt-5 max-w-xl mx-auto text-xl text-gray-500">
-            Preparing your delicious order
-          </p>
-        </div> */}
         <div className="bg-gradient-to-br from-yellow-100 via-red-50 to-yellow-200 py-16 px-4 text-center">
           <h1 className="text-5xl font-extrabold text-red-600 drop-shadow-sm sm:text-6xl tracking-tight mb-4">
             🍕 Good pizza takes time — and it's worth the wait!

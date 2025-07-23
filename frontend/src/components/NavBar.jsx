@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white shadow-lg">
+    <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white">
       <div className="container mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center">
         <Link
           to="/"
