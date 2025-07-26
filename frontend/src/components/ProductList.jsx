@@ -69,13 +69,8 @@ const ProductList = ({ products, title, showCategory = false }) => {
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 line-clamp-2">
                   {product.name}
                 </h3>
-
-                {/* <div className="mt-2 flex items-baseline gap-2">
-                  <span className="text-lg font-bold text-red-900">
-                    LKR {product.price.toLocaleString("en-LK")}
-                  </span> */}
                 <div className="flex items-end gap-2">
-                  <span className="text-2xl font-extrabold text-red-900">
+                  <span className="text-2xl font-extrabold text-blue-900">
                     LKR {product.price.toLocaleString("en-LK")}
                   </span>
                 </div>
