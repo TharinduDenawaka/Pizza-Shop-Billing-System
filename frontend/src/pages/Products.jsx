@@ -9,7 +9,8 @@ function Products() {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/products");
+      // const response = await axios.get("http://localhost:5000/api/products");
+      const response = await axios.get("https://raw.githubusercontent.com/TharinduDenawaka/Pizza-Shop-Billing-System/main/frontend/src/product.json");
       setProducts(response.data);
       setLoading(false);
     } catch (error) {
