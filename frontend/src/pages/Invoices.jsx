@@ -10,6 +10,7 @@ const Invoices = () => {
   useEffect(() => {
     const fetchInvoices = async () => {
       try {
+        // const response = await axios.get("http://localhost:5000/api/invoices");
         const response = await axios.get("https://pizza-shop-billing-system.onrender.com/api/invoices");
         setInvoices(response.data);
       } catch (err) {
