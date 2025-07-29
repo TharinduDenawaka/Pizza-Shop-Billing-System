@@ -119,7 +119,7 @@ npm run start
 ```bash
 cd backend
 npm install
-npx nodemon server.js
+npx nodemon server.js  or node server.js
 ```
 
 Runs on `http://localhost:5000/`
