@@ -7,7 +7,7 @@ const productRoutes = require('./routes/productRoutes');
 const app = express();
 
 // Middleware
-app.use(cors({origin: "https://pizza-shop-billing.netlify.app"}));
+app.use(cors({origin:"https://pizza-shop-billing.netlify.app"}));
 app.use(express.json());
 
 // Routes
